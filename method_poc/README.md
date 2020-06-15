@@ -1,4 +1,4 @@
-You need to run:
+## You need to run:
 ```
 go get github.com/sbinet/go-python
 
@@ -7,7 +7,10 @@ export PYHTONPATH={PATH_WHERE_YOUR_PYC_FILES_LOCATED}
 go build main.go &&  ./main
 ```
 
-Troubleshooting:
+The last line will create a pyc files for you
+<hr>
+
+## Troubleshooting:
 If you encounter this:
 ```
 github.com/sbinet/go-python
